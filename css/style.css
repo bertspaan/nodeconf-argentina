@@ -77,3 +77,38 @@ img#nypl {
   max-height: none;
   padding: 10px;
 }
+
+.warning {
+  color: red;
+}
+
+.more-space > div {
+  padding-bottom: 1em;
+}
+
+.wiggle {
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: wiggle;
+  -webkit-animation-name: wiggle;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+  }
+
+  to {
+    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+  }
+}
+
