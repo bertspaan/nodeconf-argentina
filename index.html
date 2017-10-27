@@ -53,19 +53,13 @@
           </span>
         </section>
 
-        <section data-background="../../nypl-talks-assets/images/haarlem.png">
-          <span class="caption">
-            <a href="http://code.waag.org/buildings/">All 9,866,539 buildings in the Netherlands</a>
-          </span>
-        </section>
-
         <section>
           <h3 style="text-align: left;">The NYC Space/Time Directory:</h3>
           <ol>
             <li>Maps, photos, documents from NYPL’s collections;</li>
             <li class="fragment" data-autoslide="1000">Digitization;</li>
             <li class="fragment" data-autoslide="1000">Data extraction (e.g. crowdsourcing, OCR);</li>
-            <li class="fragment" data-autoslide="1000">Publishing open data;</li>
+            <li class="fragment" data-autoslide="1000">Historical geospatial open data;</li>
             <li class="fragment" data-autoslide="1000">New insights from combining datasets;</li>
             <li class="fragment" data-autoslide="1000"><strong>
               A Searchable Atlas</strong> <i>of</i> <strong>New York City!</strong>
@@ -86,7 +80,7 @@
         <section>
           <img class="stretch" src="../../nypl-talks-assets/images/digital-collections.png" />
           <span class="caption">
-            <a href="https://digitalcollections.nypl.org/items/510d47e1-2d9a-a3d9-e040-e00a18064a99">View 100,000s high-res items in our Digital Collections</a>
+            <a href="https://digitalcollections.nypl.org/items/510d47e1-2d9a-a3d9-e040-e00a18064a99">View 100,000s of high-res items in our Digital Collections</a>
           </span>
         </section>
 
@@ -276,6 +270,13 @@
         <section data-background-video="../../nypl-talks-assets/images/scrollnyc.mp4" data-background-video-loop="true">
           <span class="caption">
             <a href="http://spacetime.nypl.org/scrollnyc/">ScrollNYC: maps of Manhattan, from New Amsterdam to the 20th century</a>
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/building-inspector.png"></video>
+          <span class="caption">
+            <a href="http://buildinginspector.nypl.org/">Building Inspector: from maps to historical building and address data</a>
           </span>
         </section>
 
@@ -478,7 +479,7 @@ H(fs.createReadStream('mapwarper.objects.ndjson'))
           <video class="stretch" loop data-autoplay src="../../nypl-talks-assets/images/historical-addresses.mp4"></video>
           <span class="caption">
             <a href="https://github.com/nypl-spacetime/tutorial-historical-addresses">
-              A simple geocoder for historical addresses, made with JavaScript
+              A simple geocoder for historical addresses, made with Lunr
             </a>
           </span>
         </section>
@@ -504,7 +505,7 @@ H(fs.createReadStream('mapwarper.objects.ndjson'))
           <img class="stretch" src="../../nypl-talks-assets/images/city-directory-lines.gif" />
           <span class="caption">
             <a href="https://github.com/nypl-spacetime/city-directories">
-              We are using Tesseract to extract text data from city directories
+              We are using Tesseract OCR to process scanned city directories
             </a>
           </span>
         </section>
@@ -520,7 +521,7 @@ H(fs.createReadStream('mapwarper.objects.ndjson'))
           <img src="../../nypl-talks-assets/images/crf.png" />
           <span class="caption">
             <a href="https://github.com/nypl-spacetime/city-directory-entry-parser">
-              Conditional random fields (CRF) turn lines into data
+              Conditional random fields (CRF) turn text into data
             </a>
           </span>
         </section>
